@@ -1,0 +1,7 @@
+# creating a .fmt file
+
+bcp "$env:SQL_DATABASE.dbo.Customers_402789" format nul -f CustomersFormatFile.fmt -c -t "|" -S $env:SQL_SERVER -U $env:SQL_USER -P $env:SQL_PASSWORD
+
+# inserting data into the table
+
+ bcp "$env:SQL_DATABASE.dbo.Customers_402789" in "output/processed/${TIMESTAMP}_InternetSales_new.txt" -f "CustomersFormatFile.fmt" -t "|" -T -S $env:SQL_SERVER -e "error_log.txt"

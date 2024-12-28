@@ -1,0 +1,19 @@
+20241223235651 - Starting script execution
+20241223235651 - Downloading file from http://home.agh.edu.pl/~wsarlej/dyd/bdp2/materialy/cw10/InternetSales_new.zip
+20241223235651 - File downloaded successfully.
+20241223235651 - Unzipping the file
+20241223235651 - File unzipped successfully.
+20241223235651 - Validating and cleaning data
+20241223235735 - Data validation and cleaning completed.
+20241223235735 - Connecting to MySQL and creating table
+20241223235736 - Table created successfully.
+20241223235736 - Inserting data into the table
+20241223235737 - Data inserted successfully.
+20241223235737 - Updating 'SecretCode' column
+20241223235739 - 'SecretCode' column updated successfully.
+20241223235739 - Exporting table to CSV
+20241223235739 - Table exported to CSV successfully.
+20241223235739 - Compressing the CSV file
+20241223235739 - CSV file compressed successfully.
+20241223235739 - Cleaning up temporary files
+20241223235740 - Script execution completed successfully.
